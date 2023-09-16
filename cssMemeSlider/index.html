@@ -14,7 +14,12 @@
 		<div class="slider">
 			<div class="container">
 				<div class="slider__gallery">
-					<ul class="slider__gallery-list">
+					<input class="visuallyhidden" type="radio" name="s" id="s0">
+					<input class="visuallyhidden" type="radio" name="s" id="s1">
+					<input class="visuallyhidden" type="radio" name="s" id="s2">
+					<input class="visuallyhidden" type="radio" name="s" id="s3">
+
+					<ul class="slider__gallery-list s0">
 						<li class="slider__gallery-item">
 							<img class="slider__gallery-img" src="./img/meme-0.jpg" alt="meme-0">
 						</li>
@@ -28,35 +33,40 @@
 							<img class="slider__gallery-img" src="./img/meme-3.jpg" alt="meme-3">
 						</li>
 					</ul>
-				</div>
 
-				<div class="slider-wrapper">
-					<ul class="slider__controls-list">
-						<li class="slider__control-item slider__control-item_active">
-							<span class="slider__control-dot"></span>
-						</li>
-						<li class="slider__control-item">
-							<span class="slider__control-dot"></span>
-						</li>
-						<li class="slider__control-item">
-							<span class="slider__control-dot"></span>
-						</li>
-						<li class="slider__control-item">
-							<span class="slider__control-dot"></span>
-						</li>
-					</ul>
-					<div class="slider__texts">
-						<p class="slider__text slider__text_active">Text-1</p>
-						<p class="slider__text visuallyhidden">Text-2</p>
-						<p class="slider__text visuallyhidden">Text-3</p>
-						<p class="slider__text visuallyhidden">Text-4</p>
+					<div class="slider-wrapper">
+						<ul class="slider__controls-list">
+							<li class="slider__control-item">
+								<label for="s0" class="slider__control-dot d0">
+								</label>
+							</li>
+							<li class="slider__control-item">
+								<label for="s1" class="slider__control-dot d1">
+								</label>
+							</li>
+							<li class="slider__control-item">
+								<label for="s2" class="slider__control-dot d2">
+								</label>
+							</li>
+							<li class="slider__control-item">
+								<label for="s3" class="slider__control-dot d3">
+								</label>
+							</li>
+						</ul>
+
+						<div class="slider-text-wrapper">
+							<div class="slider__texts p0">
+								<p class="slider__text">Two waiters are waiting</p>
+								<p class="slider__text">My my friend waiting and I</p>
+								<p class="slider__text">Waiting in the bathhouse</p>
+								<p class="slider__text">Waiting at the bus stop</p>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-
-	<script src="./js/script.js"></script>
 </body>
 
 </html>

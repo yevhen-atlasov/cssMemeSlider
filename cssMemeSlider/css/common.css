@@ -10,11 +10,6 @@
 	border: 0;
 }
 
-*::before,
-*::after {
-	box-sizing: border-box;
-}
-
 :root {
 	--text-color: #ffffff;
 	--background-color: #24282b;
@@ -27,7 +22,7 @@ body {
 	font-family: "Inter", sans-serif;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 20px;
+	font-size: 16px;
 	line-height: 40px;
 	color: var(--text-color);
 	background: url(../img/bg.jpg) center/cover fixed no-repeat var(--overlay-color);
