@@ -82,6 +82,11 @@
 #s0:checked~.s0+.slider-wrapper .d0 {
 	background-color: var(--background-color);
 	border: 2px solid var(--control-color);
+	cursor: auto;
+}
+
+#s0:checked~.s0+.slider-wrapper .i0 {
+	cursor: auto;
 }
 
 #s0:checked:hover~.s0+.slider-wrapper .d0 {
@@ -99,6 +104,11 @@
 #s1:checked~.s0+.slider-wrapper .d1 {
 	background-color: var(--background-color);
 	border: 2px solid var(--control-color);
+	cursor: auto;
+}
+
+#s1:checked~.s0+.slider-wrapper .i1 {
+	cursor: auto;
 }
 
 #s1:checked:hover~.s0+.slider-wrapper .d1 {
@@ -116,6 +126,11 @@
 #s2:checked~.s0+.slider-wrapper .d2 {
 	background-color: var(--background-color);
 	border: 2px solid var(--control-color);
+	cursor: auto;
+}
+
+#s2:checked~.s0+.slider-wrapper .i2 {
+	cursor: auto;
 }
 
 #s2:checked:hover~.s0+.slider-wrapper .d2 {
@@ -133,6 +148,11 @@
 #s3:checked~.s0+.slider-wrapper .d3 {
 	background-color: var(--background-color);
 	border: 2px solid var(--control-color);
+	cursor: auto;
+}
+
+#s3:checked~.s0+.slider-wrapper .i3 {
+	cursor: auto;
 }
 
 #s3:checked:hover~.s0+.slider-wrapper .d3 {
